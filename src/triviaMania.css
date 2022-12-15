@@ -1,0 +1,252 @@
+.body{
+    position: fixed;
+   width:100vw;
+   height:100vh ;
+
+}
+.help{
+    color: aliceblue;
+}
+.s{
+    position: relative;
+    width:55vw;
+    height: 70vh;
+    margin-top: 15vh;
+    margin-left: 24vw;
+}
+.giveup{
+    margin:0.5em;
+}
+
+.btn-warning{
+    width: 25vw;
+    height: 3vw;
+    margin-bottom: 2vw;
+    margin-left:0.7vw ;
+}
+.text-decoration-none{
+    color:black;
+}
+.link{
+
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    padding-left:9vw ;
+    padding-right: 10vw;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    margin: -2em;
+     
+}
+.text-decoration-none:hover{
+color: black;
+}
+.nav{
+    margin-left: 0.5vw;
+    width: 4.48vw; 
+    padding-left: 1.7vw;
+}
+
+.bg-light{
+    
+    opacity: 0.95;
+}
+.c1{
+    z-index: 1;
+}
+.answers{
+    margin-top: 10vh;
+    z-index: 999;
+    
+}
+/* /////////////////////////////////////////start */
+.start{
+    overflow: hidden;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.play{
+    position:relative;
+    animation: letsplay 1s linear 1;
+    margin-top: 10vw;
+    margin-left: 5vw;
+    font-size: 250px;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes letsplay {
+ 
+0%{
+transform: translate(0,0);
+}
+
+100%{
+    transform:translate(0,130vw);
+}
+
+
+    
+
+}
+.trivia{
+    position:relative;
+    animation: trivia 0.8s linear 1;
+    margin-top: -65vw;
+    margin-left: 17vw;
+    font-size: 30px;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes trivia {
+ 
+0%{
+transform: translate(0,0);
+}
+
+100%{
+    transform:translate(0,40vw);
+}
+
+}
+.start{
+    font-size: 30px;
+}
+.triviaHeader{
+    font-size: 300px;
+}
+.triviaButton{
+    margin-left: 30vw;
+}
+
+
+/* ////////////////////////////////////////////////lost */
+.loseBody{
+    position: absolute;
+    overflow: hidden;
+    width:100vw;
+    height: 100vh;
+}
+.youLose{
+    animation: youLose 1.5s linear 1; 
+    font-size: 250px;
+    margin-left:230vh ;
+    animation-fill-mode: forwards;
+    animation-delay:0.2s ;
+}
+@keyframes youLose {
+ 
+    0%{
+    transform: translate(0,0);
+    }
+    
+    100%{
+        transform:translate(-225vh,0);
+    }
+}
+.lostLose{
+    animation: lostLose 1s linear 1;
+    font-size: 250px;
+    margin-left:220vh ; 
+    animation-fill-mode: forwards; 
+    animation-fill-mode: forwards;
+    animation-delay:2s ;
+}
+@keyframes lostLose {
+ 
+    0%{
+    transform: translate(0,0);
+    }
+    
+    100%{
+        transform:translate(-101vw,0);
+    }
+}
+
+.buttonLost{
+    animation: buttonLost 1s linear 1;
+    margin-top: 31vh;
+    font-size: 30px;
+    height: 10vh;
+    animation-fill-mode: forwards;
+    animation-delay:2.5s ;
+}
+@keyframes buttonLost {
+ 
+    0%{
+    transform: translate(0,0);
+    }
+    
+    100%{
+        transform:translate(-200vh,0);
+    }
+}
+/* ///////////////////////////////////////////////win */
+.winBody{
+    position: absolute;
+    overflow: hidden;
+    width:100vw;
+    height: 100vh;
+}
+.youWin{
+    animation: youLose 1.5s linear 1; 
+    font-size: 250px;
+    margin-left:230vh ;
+    animation-fill-mode: forwards;
+    animation-delay:0.2s ;
+}
+@keyframes youWin {
+ 
+    0%{
+    transform: translate(0,0);
+    }
+    
+    100%{
+        transform:translate(-235vh,0);
+    }
+}
+.wonWin{
+    animation: lostLose 1s linear 1;
+    font-size: 250px;
+    margin-left:220vh ; 
+    animation-fill-mode: forwards; 
+    animation-fill-mode: forwards;
+    animation-delay:2s ;
+}
+@keyframes wonWin {
+ 
+    0%{
+    transform: translate(0,0);
+    }
+    
+    100%{
+        transform:translate(-101vw,0);
+    }
+}
+
+.buttonWin{
+    animation: buttonLost 1s linear 1;
+    margin-top: 31vh;
+    font-size: 30px;
+    height: 10vh;
+    animation-fill-mode: forwards;
+    animation-delay:2.5s ;
+}
+@keyframes buttonWin {
+ 
+    0%{
+    transform: translate(0,0);
+    }
+    
+    100%{
+        transform:translate(-200vh,0);
+    }
+}
+/* ////////////////////////////////////////summary */
+.sum{
+    margin: 1.5em;
+    margin-top:3vh;
+}
